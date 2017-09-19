@@ -3,8 +3,76 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Week-4-Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-	
+<div class="jumbotron">
+	<div class="container">
+		<div class="row">
+          <div class="col-12">
+             <h1 class="display-3">Crystals Collector</h1>
+  	      </div>
+  	   </div>
+	</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="lead">You will be given a random number at the start of the game.</p>
+
+      <p class="lead">There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+      <p class="lead">You win the game by matching your total score to ramdom number, you lose the game if your total score goes above the random number.</p>
+
+      <p class="lead">The value of each crystal is hidden from you until you click on it.</p>
+
+      <p class="lead">Each time when the game starts, the game will change the values of each crystal.</p>
+
+    </div>
+  </div>
+
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+    <p>Random Number: <span id="randomNum"></span></p>
+    </div>
+    <div class="col-6">
+      <p>Wins: <span id="wins"></span></p>
+
+      <p>Losses: <span id="losses"></span></p>
+    </div>
+  </div>
+</div>
+<div class="container">
+	 <div class="row">
+	 	<div class="col-12">
+	 	<button><img src="assets/images/ruby.png" class="rounded float-left" alt="ruby"></button>
+		<button><img src="assets/images/blue.png" class="rounded float-left" alt="blue"></button>
+		<button><img src="assets/images/emeral.png" class="rounded float-left" alt="emerald"></button>
+		<button><img src="assets/images/pink.png" class="rounded float-left" alt="pink"></button>
+		</div>
+	 </div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-6">
+			<p>Your total score is: </p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-6">
+			<span id="totalScore"></span>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
